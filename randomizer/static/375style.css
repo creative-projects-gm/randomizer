@@ -1,0 +1,151 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@media (max-width: 700px)  {
+  #main-button {
+    width: 90%;
+    height: 15%;
+    left: calc(50% - 90%/2);
+    top: 78%;
+    background: #FF773A;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+  
+  #button-text {
+    width: 80%;
+    height: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  #button-place {
+    width: 100%;
+  }
+  
+  #field {
+    font-family: 'Montserrat', sans-serif;
+    text-align:  center;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #EEEEEE;
+    border-radius: 29px;
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 45%;
+    left: calc(50% - 90%/2);
+    top: 27%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    }
+  
+  #generator {
+    width: 75%;
+    height: 50%;
+    top: 14%;  
+    left: 12.5%;
+  }
+  
+  #logo-in-box {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    height: 20%;
+    left: calc(50% - 90%/2);
+    top: 5%;
+  }
+  
+  #green-1 {
+    position: absolute;
+    width: 18.75em;
+    height: 18.75em;
+    left: 1.25em;
+    top: 18.75em;
+    transform: rotate(-1deg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  #green-figure-2 {
+    position: absolute;
+    width: 18.75em;
+    height: 18.75em;
+    left: 3.75em;
+    top: 3.75em;
+    transform: rotate(90deg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  #pink {
+    position: absolute;
+    width: 18.75em;
+    height: 18.75em;
+    left: 3.75em;
+    top: 21.875em;
+    transform:rotate(1.96deg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  #blue-2 {
+    position: absolute;
+    width: 15.625em;
+    height: 15.625em;
+    left: 0px;
+    top: 3.125em;
+    transform: rotate(150deg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  #circle {
+    position: absolute;
+    width: 3.75em;
+    height: 3.75em;
+    left: 0px;
+    top: -1.875em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  #wave {
+    position: absolute;
+    width: 12.5em;
+    height: 7.650000000000001em;
+    left: 10em;
+    top: 0px;
+    transform: rotate(0deg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  #elements {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}

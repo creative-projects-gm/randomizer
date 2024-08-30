@@ -1,0 +1,160 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+#main-button {
+  position: absolute;
+  width: 246px;
+  height: 58px;
+  left: calc(50% - 246px/2);
+  top: 320px;
+  background: #FF773A;
+  border-radius: 16px;
+  border-color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  }
+
+#button-text {
+  width: 180px;
+  height: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#button-place {
+  width: 100%;
+}
+
+#field {
+  font-family: 'Montserrat', sans-serif;
+  text-align:  center;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #EEEEEE;
+  border-radius: 29px;
+  margin: auto;
+  display: block;
+  width: 374px;
+  height: 80px;
+  left: calc(50% - 374px/2);
+  top: 200px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  }
+
+#generator {
+  box-sizing: border-box;
+  position: absolute;
+  width: 36.25em;
+  height: 26em;
+  left: 470px;
+  top: 190px;
+  background: #FFFFFF;
+  border: 4px solid #FF773A;
+  border-radius: 3.75em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+#logo-in-box {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 27.375em;
+  height: 8.375em;
+  left: calc(50% - 27.375em/2);
+  top: 20px;
+}
+
+#green-1 {
+  position: absolute;
+  width: 586px;
+  height: 496px;
+  left: 300.42px;
+  top: 59.4px;
+  transform: rotate(-170deg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#green-figure-2 {
+  position: absolute;
+  width: 316.28px;
+  height: 267.96px;
+  left: 900px;
+  top: 380.86px;
+  transform: rotate(-50deg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#pink {
+  position: absolute;
+  width: 609px;
+  height: 588px;
+  left: 550.97px;
+  top: 56px;
+  transform:rotate(180.96deg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#blue-2 {
+  position: absolute;
+  width: 609px;
+  height: 588px;
+  left: 380px;
+  top: 200px;
+  transform: rotate(-6deg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 500px;
+  top: -50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#wave {
+  position: absolute;
+  width: 518px;
+  height: 317px;
+  left: 900px;
+  top: 10px;
+  transform: rotate(-130deg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#elements {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
