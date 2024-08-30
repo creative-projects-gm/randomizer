@@ -1,6 +1,34 @@
-import random
-
-idea_list = ['Подкаст, записанный вместе с читателями', 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/375style.css">
+    <title>Гениальные идеи</title>
+</head>
+<body>
+    <div id="elements">
+        <img id="green-1" src="./static/green1.svg" alt="green1">
+        <img id="green-figure-2" src="./static/green2.svg" alt="green2">
+        <img id="pink" src="./static/pink.svg" alt="pink">
+        <img id="blue-2" src="./static/blue2.svg" alt="blue2">
+        <img id="circle" src="./static/pink-circle.svg" alt="pink-circle">
+        <img id="wave" src="./static/wave.svg" alt="wave">
+    </div>
+    <main id="generator">
+        <img id="logo-in-box" src="./static/gm_main_color.png" alt="logo">
+        <div class="container">
+            <p id="field">
+            </p>
+        </div>
+        <div id="button-place">
+            <button id="main-button" name="ideafind" type="button" onclick="clickFunction();"> 
+                <p id="button-text">Сгенерировать идею</p></button>
+        </div>
+    </main>
+    <script>
+        const ideasArray = ['Подкаст, записанный вместе с читателями', 
              'Подкаст о самых популярных книгах библиотеки', 
              'Видео-блог с разбором книг по креативным индустриям', 
              'Подкаст, посвященный вашему населенному пункту', 
@@ -52,7 +80,11 @@ idea_list = ['Подкаст, записанный вместе с читате�
              'Проект по восстановлению городской среды',
              'Разработка мерча города',
              'Создание мини-версий значимых для города объектов в 3D']
+    const clickFunction = async () => {
+        const field = document.getElementById("field")
+        field.textContent = ideasArray[Math.floor(Math.random() * ideasArray.length)]
+    }
+    </script>  
+</body>
+</html>
 
-def idea_find():
-    random_idea = random.choice(idea_list)
-    return random_idea    
